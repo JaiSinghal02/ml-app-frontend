@@ -14,8 +14,8 @@ export default function InputForm(){
     const [pid, setPid] = useState(1);
     const [pClass, setPClass] = useState(1);
     const [age, setAge] = useState(1);
-    const [sibsp, setSibsp] = useState(1);
-    const [parch, setParch] = useState(1);
+    const [sibsp, setSibsp] = useState(0);
+    const [parch, setParch] = useState(0);
     const [fare, setFare] = useState(0);
     const [embarked, setEmbarked] = useState('s');
     const [showLoader, setShowLoader] = useState(false);
@@ -93,7 +93,7 @@ export default function InputForm(){
                         <div className="if-form-input-body">
                         <label className="if-form-input-label" htmlFor="sibsp">Sibsp</label>
                         <Slider
-                                defaultValue={1}
+                                defaultValue={0}
                                 aria-labelledby="sibsp"
                                 step={1}
                                 marks
@@ -107,7 +107,7 @@ export default function InputForm(){
                         <div className="if-form-input-body" style={{marginLeft: '10px'}}>
                         <label className="if-form-input-label" htmlFor="parch">Parch</label>
                         <Slider
-                                defaultValue={1}
+                                defaultValue={0}
                                 aria-labelledby="parch"
                                 step={1}
                                 marks
