@@ -1,0 +1,64 @@
+.if-container{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    background-color: rgb(125, 190, 169);
+}
+.if-body{
+    width: 95%;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+}
+.if-form-body{
+    width: 95%;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+}
+.if-form{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    
+}
+.if-form-input-body{
+    width: 30%;
+    min-width: 260px;
+    display: flex;
+    flex-basis: 45%;
+    max-height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.if-form-input-body label{
+    font-size: 17px;
+    font-weight: 600;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.if-form-input-body input{
+    width: 50%;
+}
+.if-form-input-radio{
+    display: flex;
+}
+.if-form-button-body{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.if-form-result-body{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+.ct-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ct-body{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.ct-body-image{
+    width: 80%;
+    min-width: 280px;
+}
+.ct-fig{
+    width: 95%;
+    height:540px
+}
+@media only screen and (max-width:500px){
+    .ct-body-image{
+        width: 100%;
+    }
+    .ct-fig{
+        height:350px;
+    }
+}

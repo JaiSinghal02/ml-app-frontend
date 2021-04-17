@@ -1,0 +1,30 @@
+.st-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.st-body{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.st-body-image{
+    width: 80%;
+    min-width: 280px;
+}
+.st-fig{
+    width: 95%;
+    height:540px
+}
+@media only screen and (max-width:500px){
+    .st-body-image{
+        width: 100%;
+    }
+    .st-fig{
+        height:350px;
+    }
+}
